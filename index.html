@@ -24,7 +24,7 @@
 	<script src="js/libs/require.min.mixed.js"></script>
 	<script src="js/config.js"></script>
 	<style>
-		.third .logo a{font-size: 1.5em!important;line-height: 1}.third .index-main h2{font-family: 'Playfair Display',Times!important;}.cart-item .cart-count {height: 19px!important;min-width: 19px!important;}.section-act{background-color: #fff!important}.section-act.act-imbest{padding-bottom:150%}.section-act.act-top-best{padding-bottom: 110%}.section-act.act-best-dress{padding-bottom: 80%}@media (min-width:1024px) {.section-act.act-imbest{padding-bottom:90%!important}.act-best-dress{padding-bottom: 33%!important}.third .logo a{font-size: 43px!important;line-height: 1.5!important}.section-category-banner{padding-bottom: 38.37%!important;}}
+		.third .logo a{font-size: 1.5em!important;line-height: 1}.third .index-main h2{font-family: 'Playfair Display',Times!important;}.cart-item .cart-count {height: 19px!important;min-width: 19px!important;}.section-act{background-color: #fff!important}.section-act.act-imbest{padding-bottom:150%}.section-act.act-top-best{padding-bottom: 110%}.section-act.act-best-dress{padding-bottom: 80%}@media (min-width:1024px) {.section-act.act-imbest{padding-bottom:90%!important}.act-best-dress{padding-bottom: 33%!important}.third .logo a{font-size: 43px!important;line-height: 1.5!important}.section-category-banner{padding-bottom: 38.37%!important;} .third .headroom--not-top .logo a{font-size: 30px!important}}
 	</style>
 </head>
 
@@ -43,10 +43,16 @@
 				<!-- pc -->
 				<div id="carousel-index-banner" class="carousel-index-banner">
 					<a href="分類頁.html">
-						<img src="css/images/blank.gif" data-lazy="sample2/01.jpg">
+						<picture>
+							<source srcset="sample2/01.jpg" media="(min-width: 1024px)">
+							<img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="sample2/01.jpg">   
+						</picture>
 					</a>
 					<a href="分類頁.html">
-						<img src="css/images/blank.gif" data-lazy="sample2/02.jpg">
+						<picture>
+							<source data-srcset="sample2/02.jpg" media="(min-width: 1024px)">
+							<img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="sample2/02.jpg" class="lazyload">   
+						</picture>
 					</a>
 				</div>
 				<!-- m -->
