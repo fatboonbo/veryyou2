@@ -1,0 +1,42 @@
+.index-popup .modal-dialog {
+    max-width:95%;
+    width:100%;
+}
+.index-popup.modal:before {
+    height:100%;
+}
+.index-popup .modal-content {
+    display:table-cell;
+}
+.index-popup button.close {
+    top: 1em;
+    right: 0;
+}
+
+.popup-default-content.fadeindownpop {animation: fadeInDown 0.4s ease-in both; visibility: visible!important;}
+.popup-default .modal-content >div {
+    background:transparent;
+    box-shadow:none;
+}
+@media (min-width: 375px) {
+    .index-popup .modal-dialog {
+        /* max-width: 95%; */
+    }        
+}
+@media (min-width: 768px) {
+    .index-popup .modal-dialog {
+        /*max-width:560px;*/
+        width: auto;
+    }
+}
+@media (min-width: 1024px) {
+    .index-popup .modal-dialog {
+        /*max-width: 520px;*/
+        /* max-width: 278px; */
+    }
+}
+@media (min-width: 1600px) {
+    .index-popup .modal-dialog {
+        /* max-width: 335px; */
+    }
+}

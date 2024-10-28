@@ -1,0 +1,106 @@
+.section-category-banner {display: block}
+.section-act {
+    padding: 0 15px;
+    width: 100%;
+    margin: 5em 0 3em;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    height: 0;
+    padding-bottom: 50%;
+}
+.section-category-banner .alink:hover:after,.section-category-banner  .alink.underline:after,.section-category-banner .alink.selected:after {
+    content:none;
+}
+.section-act img, .section-category-banner img {
+    width:100%;
+}
+.section-category-banner {
+    background:  #f7f7f7;
+    padding: 1em 0;
+    margin: 1em auto;
+    height: 0;
+    padding-bottom: 168%;
+}
+.section-showcase {
+    margin-left:-12px;
+    padding: 0 12px;
+    width: auto;
+}
+.section-category-banner .container {
+    width:50%;
+    float:left;
+    padding-left: 12px;
+    padding-bottom: 15px;
+}
+.section-category-banner h1 {
+    font-family:arial;
+    text-transform:uppercase;
+    color:#4c4c4b;
+    font-size:1rem;
+    display:block;
+    margin: 0 auto .5em;
+    max-width:130px;
+    text-align:  center;
+}
+a.tow-links, a.one-link {
+    position: absolute;
+    height:  100%;
+    z-index:  9;
+    top:0;
+    font-size:  0;
+}
+a.one-link {
+    width:100%;
+    left: 0;
+    right: 0;
+}
+a.tow-links {   
+    left:0;
+    width: 50%;
+}
+a.tow-links:nth-child(3) {
+    left:auto;
+    right:0;
+}
+@media (min-width: 1024px) {    
+    .section-category-banner img {
+        width: auto;
+    }
+    .section-act {
+        margin: 10em 0 7em;
+    }
+    .act-best-dress {
+        margin: 3em 0 0;
+    }
+    .section-category-banner .container {
+        width: 25%;
+        padding: 0 15px;
+        text-align:  center;
+        overflow:  hidden;
+        position:  relative;
+    }
+    .section-category-banner .container img {
+        opacity:1;
+        transition: opacity 1.3s cubic-bezier(0.19, 1, 0.22, 1);
+    }
+    .section-category-banner .container:hover img {
+        opacity:.8;
+    }
+    .section-showcase {
+        margin: 0 12px;
+    }
+    .section-showcase.wrapper {
+        margin:0 auto;
+    }
+    .section-category-banner {
+        padding: 1.5em .5em 31.2%;
+        margin-top: 2em;
+    }
+    .section-category-banner h1 {
+        margin-bottom: 1.6em;
+    }
+}
+svg:not(:root) {
+    overflow: hidden;
+}
