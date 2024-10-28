@@ -1,0 +1,1 @@
+define([],function(){function e(e,n,r,t){if(t.isBuild)return void r();var o=n.toUrl(e),d=document.createElement("link");d.rel="stylesheet",d.type="text/css",d.href=o;var i=new Image;i.onerror=i.onload=function(){return r(d)},i.src=o,document.head.appendChild(d)}return{load:e}});
