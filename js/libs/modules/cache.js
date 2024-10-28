@@ -1,0 +1,1 @@
+define(["text!version.json?bust="+(new Date).getTime()],function(e){e=JSON.parse(e),requirejs.config({urlArgs:"v="+e.v})});
