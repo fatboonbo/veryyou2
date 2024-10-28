@@ -1,0 +1,716 @@
+<!doctype html>
+<html lang="zh-TW">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1" />
+	<meta http-equiv="X-UA-Compatible" content="IE=10" />
+	<!-- Mobile Metas -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes, maximum-scale=1, minimal-ui">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<title>VARYYOU｜VARYYOU</title>
+	<meta name="theme-color" content="#000000"/>
+	<!-- Favicon -->
+	<link rel="icon" href="css/images/favicon.ico">
+	<!-- css -->
+	<link rel="stylesheet" type="text/css" href="css/style.min.css">
+	<!-- js -->
+	<script src="https://unpkg.com/jquery@2.2.0/dist/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="js/libs/jquery-2.2.0.min.zopfli.js.gz"><\/script>')</script>
+	<script src="js/libs/require.min.mixed.js"></script>
+	<script src="js/config.js"></script>
+</head>
+
+<body class="product_main">
+	<header id="nav-header" class="header">
+		<script>
+			$(document).ready(function() {
+				$("#nav-header").load("html/nav-header.html");
+			});
+		</script>
+	</header>
+	<main class="product-list wrapper">
+		<div class="wrapping-up">
+			<!--Breadcrumb & Product images-->
+			<section class="column-main-product">
+				<div class="block-filter">
+
+					<ol class="breadcrumb style1" itemscope itemtype="http://schema.org/BreadcrumbList">
+						<li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+							<a itemprop="item" href="index-main.html" class="alink">
+								<span itemprop="name">Home</span>
+							</a>
+							<meta itemprop="position" content="0" />
+						</li>
+						<li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+							<a itemprop="item" href="分類頁-上衣全系列.html" class="alink">
+								<span itemprop="name">上衣</span>
+							</a>
+							<meta itemprop="position" content="1" />
+						</li>
+						<li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+							<a itemprop="item" href="分類頁-上衣-雪紡.html" class="alink">
+								<span itemprop="name">雪紡</span>
+							</a>
+							<meta itemprop="position" content="2" />
+						</li>
+						<li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+							<span itemprop="item">
+								<span itemprop="name">小V領純色泡泡網紗袖雪紡上衣</span>
+							</span>
+							<meta itemprop="position" content="3" />
+						</li>
+					</ol>
+				</div>
+				<div id="section-product-img" class="section-product-img">
+
+					<div class="carousel-product-image">
+						<div>
+							<span data-picture data-alt="小V領純色泡泡網紗袖雪紡上衣" data-title="小V領純色泡泡網紗袖雪紡上衣">
+								<span data-src="sample/p1-844x1100-product-01.jpg" data-media="(min-width: 0px)"></span>
+							</span>
+						</div>
+						<div>
+							<span data-picture data-alt="小V領純色泡泡網紗袖雪紡上衣" data-title="小V領純色泡泡網紗袖雪紡上衣">
+								<span data-src="sample/p1-844x1100-product-02.jpg" data-media="(min-width: 0px)"></span>
+							</span>
+						</div>
+						<div>
+							<span data-picture data-alt="小V領純色泡泡網紗袖雪紡上衣" data-title="小V領純色泡泡網紗袖雪紡上衣">
+								<span data-src="sample/p1-844x1100-product-03.jpg" data-media="(min-width: 0px)"></span>
+							</span>
+						</div>
+						<div>
+							<span data-picture data-alt="小V領純色泡泡網紗袖雪紡上衣" data-title="小V領純色泡泡網紗袖雪紡上衣">
+								<span data-src="sample/p1-844x1100-product-04.jpg" data-media="(min-width: 0px)"></span>
+							</span>
+						</div>
+						<div>
+							<span data-picture data-alt="小V領純色泡泡網紗袖雪紡上衣" data-title="小V領純色泡泡網紗袖雪紡上衣">
+								<span data-src="sample/p1-844x1100-product-05.jpg" data-media="(min-width: 0px)"></span>
+							</span>
+						</div>
+						<div>
+							<span data-picture data-alt="小V領純色泡泡網紗袖雪紡上衣" data-title="小V領純色泡泡網紗袖雪紡上衣">
+								<span data-src="sample/p1-844x1100-product-06.jpg" data-media="(min-width: 0px)"></span>
+							</span>
+						</div>
+						<div>
+							<span data-picture data-alt="小V領純色泡泡網紗袖雪紡上衣" data-title="小V領純色泡泡網紗袖雪紡上衣">
+								<span data-src="sample/p1-844x1100-product-07.jpg" data-media="(min-width: 0px)"></span>
+							</span>
+						</div>
+					</div>
+
+				</div>
+
+			</section>
+
+<script type="text/javascript">
+
+        (function(w) {
+
+        // Enable strict mode
+        "use strict";
+
+        w.picturefill = function() {
+            //var ps = w.document.getElementsByTagName( "span" );
+            var _strURL = location.href;
+            var ps;
+            _strURL = _strURL.toLowerCase();
+            if (_strURL.indexOf("PDContent.html") > -1 || _strURL.indexOf("PDContent.html") > -1) {
+            	ps = $(".carousel-product-image span");
+            	console.log("carousel-product-image span exists!");
+            } else {
+            	ps = w.document.getElementsByTagName("span");
+            }
+
+            // Loop the pictures
+            for (var i = 0, il = ps.length; i < il; i++) {
+            	if (ps[i].getAttribute("data-picture") !== null) {
+
+            		var sources = ps[i].getElementsByTagName("span"),
+            		matches = [];
+
+                    // See if which sources match
+                    for (var j = 0, jl = sources.length; j < jl; j++) {
+                    	var media = sources[j].getAttribute("data-media");
+                        // if there's no media specified, OR w.matchMedia is supported 
+                        if (!media || (w.matchMedia && w.matchMedia(media).matches)) {
+                        	matches.push(sources[j]);
+                        }
+                    }
+
+                    // Find any existing img element in the picture element
+                    var picImg = ps[i].getElementsByTagName("img")[0];
+
+                    if (matches.length) {
+                    	var matchedEl = matches.pop();
+                    	if (!picImg || picImg.parentNode.nodeName === "NOSCRIPT") {
+                    		picImg = w.document.createElement("img");
+                    		picImg.alt = ps[i].getAttribute("data-alt");
+                    		picImg.title = ps[i].getAttribute("data-title");
+                    	}
+
+                        // should we lazyload?
+                        if (jQuery.fn.lazyload) {
+                            // check if src has changed
+                            if (picImg.getAttribute('data-original') != matchedEl.getAttribute("data-src")) {
+                                // set data-original attr for lazyload.js
+                                picImg.setAttribute('data-original', matchedEl.getAttribute("data-src"));
+                                // set width and height for lazyload.js placeholder
+                                picImg.setAttribute('usemap', matchedEl.getAttribute("data-usemap"));
+                                //picImg.setAttribute('width', matchedEl.getAttribute( "data-width" ));
+                                //picImg.setAttribute('height', matchedEl.getAttribute( "data-height" ));
+                                // append the new image
+                                matchedEl.appendChild(picImg);
+                                // tell lazyload.js about our new/modified image
+
+                                if ($('.carousel-product-image').hasClass('slick-initialized')) {
+                                	picImg.setAttribute('data-lazy', matchedEl.getAttribute("data-src"));
+                                    //picImg.src =  matchedEl.getAttribute( "data-src" );
+                                    console.log("set to lazy");
+                                    matchedEl.appendChild(picImg);
+
+                                    $('.carousel-product-image').slick('refresh');
+                                    //console.log("refreshed");
+                                    //image zoom on tap
+                                    /**/
+                                    $(".carousel-product-image div.slick-slide span>span>img").each(function() {
+                                    	var a = $('<a/>').attr({
+                                    		'href': $(this).data('original'),
+                                    		'data-featherlight': 'image'
+                                    	});
+                                    	$(this).addClass('zoom').wrap(a);
+                                    	$('a[data-featherlight]').addClass('gallery2');
+                                    });
+                                    $(".gallery2").featherlight({
+                                    	variant: "zoom-image",
+                                    	closeOnClick: 'anywhere',
+                                    	openSpeed: 0,
+                                    	closeSpeed: 50,
+                                        //closeIcon:null,
+                                        //closeIcon:'<div id class="close-tap"><span class="icon-chevron-down"></span></div>',
+                                        closeIcon: '<div class="x"></div>',
+                                        beforeOpen: function(event) {
+                                        	$("body").addClass("modal-open");
+                                            //$(".zoom-image").append('<div class="close-tap"><span class="icon-chevron-down"></span></div>');
+                                            //$("body").append("<div>hello world</div>");
+                                            $("button.featherlight-close-icon").appendTo(".zoom-image");
+                                            $(".featherlight-content").append("<div id='anchor'></div>")
+                                        },
+                                        afterContent: function(event) {
+                                            $('#anchor').ScrollTo(); //                
+                                        },
+                                        afterClose: function(event) {
+                                        	$("body").removeClass("modal-open");
+                                        }
+                                    });
+                                } else {
+                                	$(picImg).lazyload({
+                                		threshold: 600,
+                                		placeholder: "css/images/blank.gif",
+                                		//effect: "fadeIn",
+                                		//effectspeed: 100
+                                	});
+                                }
+
+                            }
+                        } else {
+                            // default picturefill functionality
+                            picImg.src = matchedEl.getAttribute("data-src");
+                            matchedEl.appendChild(picImg);
+                        }
+                    } else if (picImg) {
+                    	picImg.parentNode.removeChild(picImg);
+                    }
+                }
+            }
+        };
+
+        // Run on resize and domready (w.load as a fallback)
+        if (w.addEventListener) {
+        	w.addEventListener("resize", w.picturefill, false);
+        	w.addEventListener("DOMContentLoaded", function() {
+        		w.picturefill();
+                // Run once only
+                w.removeEventListener("load", w.picturefill, false);
+            }, false);
+        	w.addEventListener("load", w.picturefill, false);
+        } else if (w.attachEvent) {
+        	w.attachEvent("onload", w.picturefill, false);
+        }
+
+    }(this));
+
+    
+
+</script>
+			<!--Product Description-->
+			<section class="column-product-description">
+
+				<section class="block-p01">
+					<span class="p-num">#11081519</span>
+					<span class="tags">正常品</span>
+					<h1>蕾絲拼接條文壓褶無袖洋裝</h1>
+					<p>
+						<span class="on-sale">NT.700</span>
+						<span class="retail">NT.880</span>
+					</p>
+					<h2><a href="分類頁.html" class="blink promotion">冬日暖陽。新品88折</a></h2>
+				</section>
+				<section class="block-txt">
+					<h2>商品描述</h2>
+					<p>素色大推打底上衣，下擺縮口設計超顯瘦<br>
+						針織材質舒適有彈性，讓你愛不釋手想擁有<br>
+						下身不論搭配褲裝或裙裝，衣櫃裡不可或缺<br><br>
+						90%棉+10%彈性纖維
+					</p>
+				</section>
+				<section class="block-p02">
+					<div class="option-color">
+						<span class="colorclick color-select selected"><img src="sample/color-img1.jpg"></span>
+						<span class="colorclick color-select"><img src="sample/color-img2.jpg"></span>
+						<span class="color-txt">純白</span>
+					</div>
+					<div>
+						<ul class="sizeul">
+							<li class="size-select">XS</li>
+							<li class="size-select">S</li>
+							<li class="size-select">M</li>
+							<li class="size-select out-of-stock">L</li>
+						</ul>
+						<div class="txt-right">
+						    <a class="blink" data-toggle="modal" data-target="#size_guide">尺寸表</a>
+						</div>
+						<div class="txt-left">
+							<a class="alink" data-toggle="modal" data-target="#model_guide">MODEL尺寸表</a>
+						</div>						
+					</div>
+
+					<div class="edit-select disabled">
+						<div class="edit-less"><i class="icon-minus"></i></div>
+						<div class="edit-count" id="divQty">Qty : <span id="qty" name="qty" value="1" maxvalue="10">1</span></div>
+						<div class="edit-add"><i class="icon-plus"></i></div>
+					</div>
+					<a class="btn btn-checkout disabled" data-disabled="請先選擇尺寸" data-toggle="modal" data-target="#notice_modal" >補貨中，貨到通知我<span class="icon icon-arrow3-right"></span></a>
+					<a href="javascript:;" class="btn btn-checkout disabled" data-disabled="請先選擇尺寸"style="display:none">add to cart</a>
+					<a href="javascript:;" class="btn btn-checkout disabled" data-disabled="請先選擇尺寸" style="display:none" data-toggle="modal" data-target="#notice_modal">我要預購<span class="icon icon-arrow3-right"></span></a>
+					<p class="txt" style="display:none">
+						本商品為預購商品，預計到貨日為<span class="pre-date">2017/05/25</span>
+					</p>
+					<a class="likeitem" href="結帳-購物車.html">
+						<span class="waves-effect waves-light icon-heart2"></span>
+						<span class="liketxt">加入願望清單</span>
+					</a>
+
+				</section>
+				<section class="block-p03">
+					<div class="titles_v">
+						<h2>闆娘/素人#OOTD</h2>
+					</div>
+					<div class="block-instagram-small">
+						<div class="carousel-instagram-small">
+							<figure>   
+								<a class="small-play-button" href="https://www.youtube.com/embed/JE8AHWOf964?rel=0&amp;vq=hd720" data-toggle="lightbox" data-gallery="multiimages"></a><!-- 播放影片 -->
+								<div class="instagram_img_bg"><img data-lazy="sample/sample-instagram1.jpg" src=""></div>
+							</figure>
+							<figure>
+								<a href="sample/sample-instagram2.jpg" data-toggle="lightbox" data-gallery="multiimages" class="instagram_img_link">
+									<div class="view_txt"><span class="icon-search"></span></div>
+									<div class="filter-mask"></div>
+								</a>
+								<div class="instagram_img_bg"><img data-lazy="sample/sample-instagram2.jpg" src=""></div>
+							</figure>
+							<figure>
+								<a href="sample/sample-instagram3.jpg" data-toggle="lightbox" data-gallery="multiimages" class="instagram_img_link">
+									<div class="view_txt"><span class="icon-search"></span></div>
+									<div class="filter-mask"></div>
+								</a>
+								<div class="instagram_img_bg"><img data-lazy="sample/sample-instagram3.jpg" src=""></div>
+							</figure>
+							<figure>
+								<a href="sample/sample-instagram4.jpg" data-toggle="lightbox" data-gallery="multiimages" class="instagram_img_link">
+									<div class="view_txt"><span class="icon-search"></span></div>
+									<div class="filter-mask"></div>
+								</a>
+								<div class="instagram_img_bg"><img data-lazy="sample/sample-instagram4.jpg" src=""></div>
+							</figure>
+						</div>
+					</div>
+				</section>
+				
+			</section>
+
+			<aside class="column-menu">
+				<div class="category-menu">
+					<script>
+						$(document).ready(function() {
+							$(".category-menu").load("html/category-menu.html");
+						});
+					</script>
+				</div>
+			</aside>
+		</div>
+		<section class="section-recommend">
+			<div class="headings-recommend">
+				<span>Complete the LOOK</span>
+				<hr class="wow animated hr2">
+				<h3>單品搭配推薦</h3>
+			</div>
+			<div class="wrapper">
+				<div class="carousel-recommend">
+
+					<figure class="p-item wow fadeInUp animated" data-wow-duration="0.7s" data-wow-delay="0.3s">
+						<img class="lazyload" data-original="sample/p1-320x417-11.jpg" alt="小V領純色泡泡網紗袖雪紡上衣 - 純白" title="小V領純色泡泡網紗袖雪紡上衣 - 純白" width="320" height="417">
+						<figcaption>
+							<div class="title">小V領純色泡泡網紗袖雪紡上衣</div>
+							<div>
+								<span class="on-sale">NT.2550</span>
+								<span class="retail">NT.3220</span>
+							</div>
+						</figcaption>
+						<a href="PDContent.html" alt="小V領純色泡泡網紗袖雪紡上衣 - 純白" title="小V領純色泡泡網紗袖雪紡上衣 - 純白">小V領純色泡泡網紗袖雪紡上衣 - 純白</a>
+					</figure>
+					<figure class="p-item wow fadeInUp animated" data-wow-duration="0.7s" data-wow-delay="0.3s">
+						<img class="lazyload" data-original="sample/p1-320x417-12.jpg" alt="小V領純色泡泡網紗袖雪紡上衣 - 純白" title="小V領純色泡泡網紗袖雪紡上衣 - 純白" width="320" height="417">
+						<figcaption>
+							<div class="title">小V領純色泡泡網紗袖雪紡上衣</div>
+							<div>
+								<span class="retail">NT.800</span>
+							</div>
+						</figcaption>
+						<a href="PDContent.html" alt="小V領純色泡泡網紗袖雪紡上衣 - 純白" title="小V領純色泡泡網紗袖雪紡上衣 - 純白">小V領純色泡泡網紗袖雪紡上衣 - 純白</a>
+					</figure>
+					<figure class="p-item wow fadeInUp animated" data-wow-duration="0.7s" data-wow-delay="0.3s">
+						<img class="lazyload" data-original="sample/p1-320x417-13.jpg" alt="小V領純色泡泡網紗袖雪紡上衣 - 純白" title="小V領純色泡泡網紗袖雪紡上衣 - 純白" width="320" height="417">
+						<figcaption>
+							<div class="title">小V領純色泡泡網紗袖雪紡上衣</div>
+							<div>
+								<span class="on-sale">NT.656</span>
+								<span class="retail">NT.700</span>
+							</div>
+						</figcaption>
+						<a href="PDContent.html" alt="小V領純色泡泡網紗袖雪紡上衣 - 純白" title="小V領純色泡泡網紗袖雪紡上衣 - 純白">小V領純色泡泡網紗袖雪紡上衣 - 純白</a>
+					</figure>					
+					<figure class="p-item wow fadeInUp animated" data-wow-duration="0.7s" data-wow-delay="0.3s">
+						<img class="lazyload" data-original="sample/p1-320x417-14.jpg" alt="小V領純色泡泡網紗袖雪紡上衣 - 純白" title="小V領純色泡泡網紗袖雪紡上衣 - 純白" width="320" height="417">
+						<figcaption>
+							<div class="title">小V領純色泡泡網紗袖雪紡上衣</div>
+							<div>
+								<span class="on-sale">NT.333</span>
+								<span class="retail">NT.666</span>
+							</div>
+						</figcaption>
+						<a href="PDContent.html" alt="小V領純色泡泡網紗袖雪紡上衣 - 純白" title="小V領純色泡泡網紗袖雪紡上衣 - 純白">小V領純色泡泡網紗袖雪紡上衣 - 純白</a>
+					</figure>					
+					<figure class="p-item wow fadeInUp animated" data-wow-duration="0.7s" data-wow-delay="0.3s">
+						<img class="lazyload" data-original="sample/p1-320x417-01.jpg" alt="小V領純色泡泡網紗袖雪紡上衣 - 純白" title="小V領純色泡泡網紗袖雪紡上衣 - 純白" width="320" height="417">
+						<figcaption>
+							<div class="title">小V領純色泡泡網紗袖雪紡上衣</div>
+							<div>
+								<span class="on-sale">NT.333</span>
+								<span class="retail">NT.666</span>
+							</div>
+						</figcaption>
+						<a href="PDContent.html" alt="小V領純色泡泡網紗袖雪紡上衣 - 純白" title="小V領純色泡泡網紗袖雪紡上衣 - 純白">小V領純色泡泡網紗袖雪紡上衣 - 純白</a>
+					</figure>
+
+				</div>
+			</div>
+			
+		</section>
+
+		
+	</main>
+    <!-- 購物車 popup 選單 -->
+	<aside id="cart-panel" class="cart-panel">
+		<script>
+			$(document).ready(function() {
+				$("#cart-panel").load("html/cart-panel.html");
+			});
+		</script>
+	</aside>
+	<!--會員mobile選單-->
+	<aside id="member-panel" class="member-panel">
+		<script>
+			$(document).ready(function() {
+				$("#member-panel").load("html/member-panel.html");
+			});
+		</script>
+	</aside>
+    <!--mobile選單-->
+	<aside id="mobile-menu" class="mobile-menu">
+		<script>
+			$(document).ready(function() {
+				$("#mobile-menu").load("html/mobile-menu.html");
+			});
+		</script>
+	</aside>
+	<div class="overlay"></div>
+	<!-- back to top -->
+	<div href="javascript:;" id="backtotop" class="backtotop"><i class="icon-chevron-up"></i></div>
+
+	<!-- model size chart -->
+	<div class="modal fade" id="model_guide" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+
+				<div id="size_table">
+					<div class="modal-header">
+						<button type="button" class="close" aria-label="Close" data-dismiss="modal" aria-hidden="true"><span class="icon-close"></span></button>
+					</div>
+					<div class="model_guide_wrapper">
+						<div>
+							<img class="data-img" src="images/model-size-chart-pc.jpg" data-sml="images/model-size-chart-m.jpg" data-lrg="images/model-size-chart-pc.jpg">
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+    <!-- size chart -->
+	<div class="modal fade" id="size_guide" tabindex="-1" role="dialog" aria-hidden="true" aria-labelledby="">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div id="size_table">
+					<div class="modal-header">
+						<button type="button" class="close" aria-label="Close" data-dismiss="modal" aria-hidden="true"><span class="icon-close"></span></button>
+					</div>
+					<div class="size_guide_wrapper">
+
+						<h4>size guide</h4>
+						<!-- html -->
+						<div class="sizeinfo" name="sizeAnchor" id="sizeAnchor">
+							<div class="product-heading"><small>商品尺寸表</small></div>
+							<div class="responsive-table">
+								<table>
+									<tbody>
+										<tr class="bg-color">
+											<th>Size(cm)</th>
+											<th>Length</th>
+											<th>Shoulder</th>
+											<th>Sleeve Length</th>
+											<th>Full Length</th>
+											<th>Arm</th>
+											<th>Low Hip</th>
+											<th>Waist</th>
+											<th>Chest</th>
+										</tr>
+										<tr class="bg-color">
+											<td>尺寸(公分)</td>
+											<td>全長</td>
+											<td>肩寬</td>
+											<td>袖長</td>
+											<td>袖寬</td>
+											<td>手臂寬</td>
+											<td>下擺</td>
+											<td>腰寬</td>
+											<td>胸寬</td>
+										</tr>
+										<tr>
+											<td>F</td>
+											<td>前22後23</td>
+											<td>20.5</td>
+											<td>19</td>
+											<td>4</td>
+											<td>9</td>
+											<td>16.5</td>
+											<td>X</td>
+											<td>24</td>
+										</tr>
+										<tr>
+											<td>F</td>
+											<td>前22後23</td>
+											<td>20.5</td>
+											<td>19</td>
+											<td>4</td>
+											<td>9</td>
+											<td>16.5</td>
+											<td>X</td>
+											<td>24</td>
+										</tr>
+										<tr>
+											<td>F</td>
+											<td>前22後23</td>
+											<td>20.5</td>
+											<td>19</td>
+											<td>4</td>
+											<td>9</td>
+											<td>16.5</td>
+											<td>X</td>
+											<td>24</td>
+										</tr>
+										<tr>
+											<td>F</td>
+											<td>前22後23</td>
+											<td>20.5</td>
+											<td>19</td>
+											<td>4</td>
+											<td>9</td>
+											<td>16.5</td>
+											<td>X</td>
+											<td>24</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+							<span class="normal-range">＊商品會因每個人測量方式不同，會略有1~2公分內誤差屬正常範圍。</span>
+							<div class="table-2 clearfix">
+								<div class="image-size">
+									<img src="https://photo.eyescream.com.tw/photo/bid/office/model830/01.jpg" alt="" title="">  
+								</div>  
+								<div class="right-table">
+									<div class="responsive-table-2">
+										<table>
+											<tbody>
+												<tr class="bg-color">
+													<th>Material</th>
+													<th>Elastic</th>
+													<th>Transparency</th>
+													<th>Lining</th>
+													<th>Pocket</th>
+													<th>Button</th>
+												</tr>
+												<tr>
+													<td>Acrylic Blend</td>
+													<td>YES</td>
+													<td>YES</td>
+													<td>NO</td>
+													<td>NO</td>
+													<td>NO</td>
+												</tr>
+											</tbody>
+										</table>  
+									</div>
+
+									<div class="responsive-table-2">
+										<table>
+											<tbody>
+												<tr class="bg-color">
+													<th>材質</th>
+													<th>彈性</th>
+													<th>透光性</th>
+													<th>內裡</th>
+													<th>口袋</th>
+													<th>鈕釦</th>
+												</tr>
+												<tr>
+													<td>壓克力混紡</td>
+													<td>有</td>
+													<td>有</td>
+													<td>無</td>
+													<td>無</td>
+													<td>無</td>
+												</tr>
+											</tbody>
+										</table>  
+									</div> 
+								</div>
+							</div>
+							<div class="editor-block" style="margin-top:50px;">
+								<div class="" name="sizeAnchor">
+									<div class="product-heading"><small>試穿報告表</small></div>
+									<div class="responsive-table">
+										<table>
+											<tbody>
+												<tr class="bg-color">
+													<td>試穿人員</td>
+													<td>試穿尺碼</td>
+													<td>胸圍(cm)</td>
+													<td>腰圍(cm)</td>
+													<td>臀圍(cm)</td>
+													<td>身高(cm)</td>
+													<td>體重(kg)</td>
+													<td>體型</td>
+													<td>試穿結果</td>
+												</tr>
+												<tr>
+													<td>Helen</td>
+													<td>F</td>
+													<td>83</td>
+													<td>63</td>
+													<td>89</td>
+													<td>160</td>
+													<td>45</td>
+													<td>高瘦型</td>
+													<td>試穿F合適剛好</td>
+												</tr>
+												<tr>
+													<td>Helen</td>
+													<td>F</td>
+													<td>83</td>
+													<td>63</td>
+													<td>89</td>
+													<td>160</td>
+													<td>45</td>
+													<td>高瘦型</td>
+													<td>試穿F合適剛好</td>
+												</tr>
+											</tbody>
+										</table>  
+									</div>
+								</div>
+							</div>
+
+
+						</div>
+						<!-- html -->
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+    <!-- modal notice -->
+	<div class="modal fade" id="notice_modal" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+
+				<div id="notice">
+					<div class="notice-wrapper">
+						<button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="btnclose icon-close"></i></button>
+						<div class="title-wrapper">          
+							<br>
+							<div>
+								<div>Notify Me</div>
+								<h2>貨到通知</h2>
+							</div>
+						</div>
+						<p>非下標購買，您好<br>
+							商品到貨後我們將以: elinaong@yahoo.com 通知您。<br><br>
+							您希望我們同時以手機簡訊通知您嗎? <br>
+							商品到貨後我們將以: 0900000000 通知您 ( 限台灣地區手機 )
+						</p>
+
+						<div class="newsletter-form2" >
+							<form>
+								<div class="button-group-2 button-row">
+									<div>
+										<div class="btn btn-cancel"  data-dismiss="modal" >不用了，我只要收到 EMAIL 通知</div>
+									</div>
+									<div>
+										<input type="submit" value="確認" class="btn btn-confirm">
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+
+			</div>        
+		</div>    
+	</div>
+
+	<footer id="footer">		
+		<script>
+			$(document).ready(function() {
+				$("#footer").load("html/nav-footer.html");
+			});
+		</script>
+	</footer>
+</body>
+</html>
