@@ -71,6 +71,34 @@
 					</a>
 				</div>
 			</div>
+		<!-- 最新公告 -->
+		<script type="text/javascript">
+			
+     define("index_main", ["libs/modules/slick-module"], function () {
+        $(document).ready(function () {
+            function i() {
+                !e && $(window).innerWidth() > 1e3 && ($(".section-index-news.wrapper").insertBefore(".section-category-banner"), (e = !0), l("news section rearranged"));
+            }
+            i();
+            var e = !1;
+            $(window).resize(i);
+        }),
+            l("index-main fully loaded"),
+            require(["progress"], function (i) {
+                i.go(100);
+            });
+    });
+		</script>
+		<section class="section-index-news wrapper">
+			<a href="關於-最新公告.html">
+				<div class="news_container_wrap">
+					<div class="title">NOTICE!</div>
+					<p>
+						04/30(六) - 05/01(一)適逢勞動連假，期間將暫停出貨作業 &amp; 客服服務，詳細請見相關服務公告。<span class="blink">Click Here</span>
+					</p>					
+				</div>
+			</a>
+		</section>
 			<div class="right">
 				<div>
 					<a href="分類頁.html" alt="秋日微出清。2件59折" title="秋日微出清。2件59折">
@@ -88,17 +116,6 @@
 					</a>
 				</div>
 			</div>
-		</section>
-		<!-- 最新公告 -->
-		<section class="section-index-news wrapper">
-			<a href="關於-最新公告.html">
-				<div class="news_container_wrap">
-					<div class="title">NOTICE!</div>
-					<p>
-						04/30(六) - 05/01(一)適逢勞動連假，期間將暫停出貨作業 &amp; 客服服務，詳細請見相關服務公告。<span class="blink">Click Here</span>
-					</p>					
-				</div>
-			</a>
 		</section>
 
 		<!-- 最新活動 banner -->
